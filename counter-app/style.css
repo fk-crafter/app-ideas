@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #36f302;
+    background: -webkit-linear-gradient(0deg, #36f302 0%, #0ed2f1 100%);
+    background: linear-gradient(0deg, #36f302 0%, #0ed2f1 100%);
+}
+
+button {
+    font-size: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #4776e6;
+    background: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+    background: linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+input {
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.errorMessage {
+    color: red;
+    display: none;
+}
