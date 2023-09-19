@@ -24,8 +24,8 @@ button {
     font-size: 40px;
     padding: 10px 20px;
     cursor: pointer;
-    background: linear-gradient(45deg, #3498db, #8e44ad); /* Dégradé pour la couleur de fond des boutons */
-    color: white; /* Couleur du texte des boutons */
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    color: white; 
     border: none;
     border-radius: 5px;
     margin: 5px;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(45deg, #8e44ad, #3498db); /* Dégradé au survol des boutons */
+    background: linear-gradient(45deg, #8e44ad, #3498db); 
     transform: scale(1.08);
 }
 
@@ -41,14 +41,14 @@ input {
     font-size: 24px;
     padding: 0 10px;
     text-align: center;
-    background: #ffffff; /* Couleur de fond de l'input */
-    border: 2px solid #3498db; /* Couleur de la bordure de l'input */
+    background: #ffffff;
+    border: 2px solid #3498db;
     border-radius: 5px;
     margin: 5px;
 }
 
 .errorMessage {
-    color: #e74c3c; /* Couleur du texte d'erreur */
+    color: #e74c3c;
     font-size: 18px;
     margin-top: 10px;
 }
