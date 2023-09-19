@@ -1,28 +1,40 @@
+/* Réinitialisation des marges et des rembourrages par défaut */
+html, body, div, p, button, input {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #36f302;
-    background: -webkit-linear-gradient(0deg, #36f302 0%, #0ed2f1 100%);
-    background: linear-gradient(0deg, #36f302 0%, #0ed2f1 100%);
+    background: #f0f0f0; /* Couleur de fond */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Trois colonnes pour les boutons et l'input */
+    align-items: center; /* Aligner verticalement les éléments */
+    justify-content: space-between; /* Espacement entre les éléments */
+    margin-top: 20px;
+    text-align: center;
 }
 
 button {
     font-size: 40px;
     padding: 10px 20px;
     cursor: pointer;
-    background: #4776e6;
-    background: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
-    background: linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
-    color: white;
+    background: linear-gradient(45deg, #3498db, #8e44ad); /* Dégradé pour la couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
     border: none;
     border-radius: 5px;
-    margin: 0 5px;
+    margin: 5px;
     transition: 0.5s;
 }
 
 button:hover {
+    background: linear-gradient(45deg, #8e44ad, #3498db); /* Dégradé au survol des boutons */
     transform: scale(1.08);
 }
 
@@ -30,11 +42,14 @@ input {
     font-size: 24px;
     padding: 0 10px;
     text-align: center;
-    border: none;
+    background: #ffffff; /* Couleur de fond de l'input */
+    border: 2px solid #3498db; /* Couleur de la bordure de l'input */
     border-radius: 5px;
+    margin: 5px;
 }
 
 .errorMessage {
-    color: red;
-    display: none;
+    color: #e74c3c; /* Couleur du texte d'erreur */
+    font-size: 18px;
+    margin-top: 10px;
 }
