@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f2f4f6;
+    background-color: #f7f7f7; /* Nouvelle couleur de fond */
 }
 
 .container {
@@ -14,13 +14,13 @@ body {
     max-width: 400px;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: #3498db;
+    color: #333333; /* Nouvelle couleur de titre */
     font-size: 24px;
     text-align: center;
 }
@@ -42,17 +42,19 @@ h1 {
 
 .reminder-form button {
     padding: 10px;
-    background-color: #3498db;
+    background: #2b2f77;
+    background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%); 
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 80%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .reminder-form button:hover {
-    background-color: #2980b9;
+    transform: scale(1.03);
 }
 
 .reminders-list {
@@ -61,7 +63,7 @@ h1 {
 }
 
 .reminder {
-    background-color: #ecf0f1;
+    background-color: #f2f2f2; /* Nouvelle couleur d'arrière-plan */
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
@@ -70,27 +72,37 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.reminder:hover {
+    background-color: #e0e0e0; /* Nouvelle couleur au survol */
+    transform: translateY(-2px);
 }
 
 .delete-button {
     padding: 5px 10px;
-    background-color: #e74c3c;
+    background: #f60021;
+    background: -webkit-linear-gradient(0deg, #f60021 0%, #9b0e1e 50%, #810825 100%);
+    background: linear-gradient(0deg, #f60021 0%, #9b0e1e 50%, #810825 100%);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
     font-size: 12px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .delete-button:hover {
-    background-color: #c0392b;
+    transform: scale(1.03);
 }
 
 #delete-all {
     padding: 10px;
-    background-color: #e74c3c;
+    background: #f60021;
+    background: -webkit-linear-gradient(0deg, #f60021 0%, #9b0e1e 50%, #810825 100%);
+    background: linear-gradient(0deg, #f60021 0%, #9b0e1e 50%, #810825 100%);
     color: white;
     border: none;
     border-radius: 5px;
@@ -98,9 +110,9 @@ h1 {
     width: 100%;
     margin-top: 10px;
     font-size: 14px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #delete-all:hover {
-    background-color: #c0392b;
+    transform: scale(1.03);
 }
