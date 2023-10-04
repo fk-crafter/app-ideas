@@ -17,7 +17,7 @@ body {
 #timer {
     font-size: 48px;
     margin-bottom: 20px;
-    background: #444;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -40,11 +40,11 @@ button {
     margin: 5px;
     border-radius: 20px;
     color: #fff;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     transition: 0.5s;
 }
 
 button:hover {
     transform: scale(1.05);
-    background-image: linear-gradient(to right, #434343 0%, black 100%); 
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
