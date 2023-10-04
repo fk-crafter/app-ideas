@@ -1,4 +1,4 @@
-let timerInterval;
+let ;
 let startTime;
 let elapsedTime = 0;
 let isRunning = false;
