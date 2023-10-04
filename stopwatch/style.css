@@ -4,9 +4,9 @@ body {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    background: #2b2f77;
-    background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
-    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: #4e54c8;
+    background: -webkit-linear-gradient(0deg, #8f94fb 0%, #4e54c8 100%);
+    background: linear-gradient(0deg, #8f94fb 0%, #4e54c8 100%);
 }
 
 #container {
@@ -27,7 +27,7 @@ body {
 }
 
 #button-container {
-    display: flex; 
+    display: flex;
 }
 
 button {
@@ -36,10 +36,10 @@ button {
     padding: 10px 20px;
     margin: 5px;
     border-radius: 20px;
-    color: #000000;
-    background: #d7d7d7;
-    background: -webkit-linear-gradient(0deg, #d7d7d7 0%, #eeeeee 100%);
-    background: linear-gradient(0deg, #d7d7d7 0%, #eeeeee 100%);
+    color: #ffffff; 
+    background: #ff6b6b;
+    background: -webkit-linear-gradient(0deg, #ff6b6b 0%, #ffa84c 100%); /* Dégradé de fond */
+    background: linear-gradient(0deg, #ff6b6b 0%, #ffa84c 100%);
     transition: 0.5s;
 }
 
