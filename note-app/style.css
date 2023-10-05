@@ -38,7 +38,7 @@ body {
   width: 100%;
   border: none;
   background-color: transparent;
-    resize: none;
+  resize: none;
 }
 
 #add-note-button {
