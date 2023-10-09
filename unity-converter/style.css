@@ -1,48 +1,52 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #3a3737;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,149,218,0.85) 9.9%, rgba(56,80,114,1) 100.3% );
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
     text-align: center;
-    background: #1488cc;
-    background: -webkit-linear-gradient(0deg, #1488cc 0%, #2b32b2 100%);
-    background: linear-gradient(0deg, #1488cc 0%, #2b32b2 100%);
+    background: linear-gradient(58.2deg, rgba(40,91,212,0.73), rgba(171,53,163,0.45), rgba(255,204,112,0.37));
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #ffffff;
+    color: #fff;
 }
 
-#valeur, #uniteDepart, #uniteConversion {
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input, select {
     padding: 10px;
     font-size: 16px;
     margin: 5px;
 }
 
 #convertir {
-    background: #2b2f77;
-    background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
-    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: linear-gradient(0deg, #2b2f77, #141852, #070b34);
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #resultat {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-    color: #ffffff;
+    color: #fff;
 }
