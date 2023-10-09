@@ -10,7 +10,6 @@ document.getElementById("convertir").addEventListener("click", function() {
 
     let resultat;
 
-    // Ajoutez des conversions pour d'autres unités si nécessaire
     if (uniteDepart === "pieds" && uniteConversion === "mètres") {
         resultat = valeur * 0.3048;
     } else if (uniteDepart === "mètres" && uniteConversion === "pieds") {
@@ -24,5 +23,5 @@ document.getElementById("convertir").addEventListener("click", function() {
         return;
     }
 
-    document.getElementById("resultat").textContent = valeur + " " + uniteDepart + " équivaut à " + resultat + " " + uniteConversion;
+    document.getElementById("resultat").textContent = valeur + " " + uniteDepart + " équivaut à " + resultat.toFixed(2) + " " + uniteConversion;
 });
