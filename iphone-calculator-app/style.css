@@ -1,0 +1,134 @@
+body {
+    font-family: 'Helvetica';
+}
+
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    padding: 5px;
+    background-color: #000; 
+}
+
+.display {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    background-color: #000;
+    font-size: 2em;
+    color: #fff;
+    text-align: right;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: #fff;
+    border: none; /* Enleve la bordure */
+    cursor: pointer;
+    border-radius: 50%; /* Garde la forme ronde */
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    box-shadow: none; /* Enleve l'effet de demi-cercle */
+}
+
+button.zero {
+    width: 110px;
+    border-radius: 5px;
+    padding-right: 65px;
+}
+
+button.comma {
+    width: 50px;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+}
+
+button:active {
+    background-color: #eee;
+}
+
+button.ac, button.plus-minus, button.percent {
+    background-color: #ddd;
+    color: #000;
+}
+
+button.equal {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+button.operator {
+    color: #fff;
+}
+
+button.operator.divide {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+button.operator.multiply {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+button.operator.subtract {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+button.operator.add {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+button.operator:hover {
+    background-color: #e69500;
+}
+
+button.operator:active {
+    background-color: #cc8400;
+}
+
+button.numbers {
+    background-color: #333;
+    color: #fff;
+}
+
+button.numbers:hover {
+    background-color: #555;
+}
+
+button.numbers:active {
+    background-color: #222;
+}
+
+button.zero, button.comma {
+    background-color: #333;
+    color: #fff;
+}
+
+button.zero:hover,
+button.comma:hover,
+button.equal:hover {
+    background-color: #e5e5e5;
+}
+
+button.zero:active,
+button.comma:active,
+button.equal:active {
+    background-color: #eee;
+}
