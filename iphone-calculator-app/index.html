@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iPhone calculator App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <button class="ac" onclick="clearDisplay()">AC</button>
+        <button class="plus-minus" onclick="append('+/-')">+/-</button>
+        <button class="percent" onclick="append('%')">%</button>
+        <button class="operator divide" onclick="append('/')">÷</button>
+        <button class="numbers" onclick="append('7')">7</button>
+        <button class="numbers" onclick="append('8')">8</button>
+        <button class="numbers" onclick="append('9')">9</button>
+        <button class="operator multiply" onclick="append('*')">×</button>
+        <button class="numbers" onclick="append('4')">4</button>
+        <button class="numbers" onclick="append('5')">5</button>
+        <button class="numbers" onclick="append('6')">6</button>
+        <button class="operator subtract" onclick="append('-')">-</button>
+        <button class="numbers" onclick="append('1')">1</button>
+        <button class="numbers" onclick="append('2')">2</button>
+        <button class="numbers" onclick="append('3')">3</button>
+        <button class="operator add" onclick="append('+')">+</button>
+        <button class="zero keyboard-trigger" onclick="append('0')">0</button>
+        <button class="comma keyboard-trigger" onclick="append('.')">,</button>
+        <button class="equal keyboard-trigger" onclick="calculate()">=</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
