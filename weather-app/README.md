@@ -7,5 +7,3 @@ exemple :
 ![Sans titre3](https://github.com/fk-crafter/app-ideas/assets/127132293/abaf0dbb-e9e8-4b9c-abe9-44c18b559e5a)
 
 ![Sans titre4](https://github.com/fk-crafter/app-ideas/assets/127132293/41b5b55a-fc3f-4209-910b-f1f4691cdd2c)
-
-
