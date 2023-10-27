@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galerie d'art</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+  
+<body>
+  
+  <div class="container">
+    <h1>Galerie d'art en ligne</h1>
+    <div class="gallery">
+      <img src="./img/image1.jpg" onclick="openModal('./img/image1.jpg')">
+      <img src="./img/image2.jpg" onclick="openModal('./img/image2.jpg')">
+      <img src="./img/image3.jpg" onclick="openModal('./img/image3.jpg')">
+      <img src="./img/image4.jpg" onclick="openModal('./img/image4.jpg')">
+      <img src="./img/image5.jpg" onclick="openModal('./img/image5.jpg')">
+      <!-- Ajoute autant d'images que tu le souhaites -->
+    </div>
+    <div id="modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="">
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
