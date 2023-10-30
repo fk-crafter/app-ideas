@@ -1,7 +1,7 @@
 const messagesContent = $('.msgs-content');
 const messageInput = $('.msg-input');
 const messageSubmit = $('.msg-submit');
-const avatarImage = './image/me-without-circle2.png';
+const avatarImage = 'avatar.png';
 const fakeMessages = [
     'Salut, comment puis-je t\'aider aujourd\'hui ?',
     'Ok, je vais voir ça pour toi',
