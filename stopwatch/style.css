@@ -4,11 +4,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-image: linear-gradient(to top, #e0c3fc, #8ec5fc);
 }
 
 #container {
-    color: #ddd;
+    color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,11 +17,11 @@ body {
 #timer {
     font-size: 48px;
     margin-bottom: 20px;
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: #333;
 }
 
 #milliseconds {
@@ -39,12 +39,12 @@ button {
     padding: 10px 20px;
     margin: 5px;
     border-radius: 20px;
-    color: #fff;
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    color: #000000;
+    background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
     transition: 0.5s;
 }
 
 button:hover {
     transform: scale(1.05);
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 }
