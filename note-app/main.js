@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const notesContainer = document.querySelector(".notes-container");
 
   function createNoteElement(title, content) {
-    const neNote = document.createElement("div");
+    const newNote = document.createElement("div");
     newNote.className = "note";
     newNote.innerHTML = `
       <input type="text" class="note-title" value="${title}" placeholder="Titre de la note">
