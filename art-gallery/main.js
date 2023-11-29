@@ -11,6 +11,8 @@ function openModal(imagePath) {
   modalImage.src = imagePath;
   currentImageIndex = images.indexOf(imagePath);
 
+  modal.addEventListener('click', closeModalOnClickOutside);
+
   window.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
       closeModal();
@@ -26,6 +28,8 @@ function openModal(imagePath) {
 
 function closeModal() {
   modal.style.display = 'none';
+  modal.removeEventListener('click', closeModalOnClickOutside);
+
   window.removeEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
       closeModal();
@@ -37,4 +41,10 @@ function closeModal() {
       modalImage.src = images[currentImageIndex];
     }
   });
+}
+
+function closeModalOnClickOutside(event) {
+  if (event.target === modal) {
+    closeModal();
+  }
 }
