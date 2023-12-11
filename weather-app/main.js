@@ -6,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 const input = document.querySelector('.search-box input');
 
 const searchWeather = () => {
-    const APIKey = 'b532b389f68605fd7821e84b29c9c090';
+    const APIKey = 'YOUR_API_KEY';
     const city = input.value;
 
     if (city === '')
