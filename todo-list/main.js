@@ -32,15 +32,15 @@ inputField.addEventListener("keyup", (e) => {
           <i class="uil uil-trash" onclick="deleteTask(this)"></i>
         </li>`;
 
-    todoLists.insertAdjacentHTML("beforeend", liTag); // Insérer la balise <li> à l'intérieur de la div 'todolist'
-    inputField.value = ""; // Supprimer la valeur du champ de saisie
+    todoLists.insertAdjacentHTML("beforeend", liTag); 
+    inputField.value = ""; 
     allTasks();
   }
 });
 
 
 function handleStatus(e) {
-  const checkbox = e.querySelector("input"); // Obtenir la case à cocher
+  const checkbox = e.querySelector("input"); 
   checkbox.checked = checkbox.checked ? false : true;
   e.classList.toggle("pending");
   allTasks();
@@ -48,7 +48,7 @@ function handleStatus(e) {
 
 
 function deleteTask(e) {
-  e.parentElement.remove(); //getting parent element and remove it
+  e.parentElement.remove();
   allTasks();
 }
 
